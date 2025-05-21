@@ -2,9 +2,9 @@ package Cursos;
 
 public class Curso {
 
-	public String nome;
-	public int codigo;
-	public int cargaHoraria;
+	private String nome;
+	private int codigo;
+	private int cargaHoraria;
 	
 	public Curso(String nome, int codigo, int cargaHoraria) {
 		this.nome = nome;
@@ -39,7 +39,7 @@ public class Curso {
 		
 		System.out.println("NOME: " + getNome());
 		System.out.println("CÓDIGO: " + getCodigo());
-		System.out.println("NOME: " + getCargaHoraria());
+		System.out.println("CARGA HORÁRIA: " + getCargaHoraria());
 		
 	}
 
@@ -52,7 +52,7 @@ public class Curso {
 		
 		System.out.println("NOME: " + curso2.getNome());
 		System.out.println("CÓDIGO: " + curso2.getCodigo());
-		System.out.println("NOME: " + curso2.getCargaHoraria());
+		System.out.println("CARGA HORÁRIA: " + curso2.getCargaHoraria());
 		
 	}
 	

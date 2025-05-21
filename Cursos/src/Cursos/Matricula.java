@@ -2,10 +2,10 @@ package Cursos;
 
 public class Matricula {
 	
-	public String aluno;
-	public String curso;
-	public int ano;
-	public int semestre;
+	private String aluno;
+	private String curso;
+	private int ano;
+	private int semestre;
 	
 	public Matricula(String aluno, String curso, int ano, int semestre) {
 		this.aluno = aluno;
